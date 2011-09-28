@@ -1,0 +1,19 @@
+c:\users\user\documents\visual studio 2010\Projects\MyBills\MyBills\bin\MyBills.dll
+c:\users\user\documents\visual studio 2010\Projects\MyBills\MyBills\bin\MyBills.pdb
+c:\users\user\documents\visual studio 2010\Projects\MyBills\MyBills\obj\Debug\ResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2010\Projects\MyBills\MyBills\obj\Debug\MyBills.dll
+c:\users\user\documents\visual studio 2010\Projects\MyBills\MyBills\obj\Debug\MyBills.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\MyBills\MyBills\bin\EntityFramework.dll
+C:\_dev\MyBills\MyBills\obj\Debug\ResolveAssemblyReference.cache
+C:\_dev\MyBills\MyBills\obj\Debug\MyBills.dll
+C:\_dev\MyBills\MyBills\obj\Debug\MyBills.pdb
+C:\_dev\MyBills\MyBills\bin\MyBills.dll
+C:\_dev\MyBills\MyBills\bin\MyBills.pdb
+C:\_dev\MyBills\MyBills\bin\EntityFramework.dll
+C:\_dev\MyBills.aspnet\MyBills\bin\MyBills.dll
+C:\_dev\MyBills.aspnet\MyBills\bin\MyBills.pdb
+C:\_dev\MyBills.aspnet\MyBills\bin\EntityFramework.dll
+C:\_dev\MyBills.aspnet\MyBills\obj\Debug\ResolveAssemblyReference.cache
+C:\_dev\MyBills.aspnet\MyBills\obj\Debug\MyBills.dll
+C:\_dev\MyBills.aspnet\MyBills\obj\Debug\MyBills.pdb
+C:\_dev\MyBills.aspnet\MyBills\bin\System.Web.Providers.dll

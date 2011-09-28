@@ -1,0 +1,70 @@
+﻿@model IEnumerable<MyBills.Models.Bill>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Upcoming Bills</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="data-table" cellpadding="0" cellspacing="0">
+    <tr>
+        <th class="actions edit">
+            Edit
+        </th>
+        <th class="actions details">
+            Details
+        </th>
+        <th class="actions delete">
+            Delete
+        </th>
+        <th>
+            Vendor
+        </th>
+        <th>
+            Billing Date
+        </th>
+        <th>
+            Received Date
+        </th>
+        <th>
+            Due Date
+        </th>
+        <th>
+            Amount
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td class="actions edit">
+            <a href='@Url.Action("Edit", new {id=item.Id})'><img src="../../Content/Edit.png" alt="Edit" /></a>
+        </td>
+        <td class="actions details">
+            <a href='@Url.Action("Details", new {id=item.Id})'><img src="../../Content/Info.png" alt="Details" /></a>
+        </td>
+        <td class="actions delete">
+            <a href='@Url.Action("Delete", new {id=item.Id})'><img src="../../Content/Delete.png" alt="Delete" /></a>
+        </td>
+        <td>
+            @item.VendorName
+        </td>
+        <td>
+            @String.Format("{0:g}", item.BillDate)
+        </td>
+        <td>
+            @String.Format("{0:g}", item.ReceivedDate)
+        </td>
+        <td>
+            @String.Format("{0:g}", item.DueDate)
+        </td>
+        <td>
+            @String.Format("{0:c}", item.Amount)
+        </td>
+    </tr>
+}
+
+</table>
+
